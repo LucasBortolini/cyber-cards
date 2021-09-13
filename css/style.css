@@ -3,11 +3,8 @@
 }
 
 body {
-  font-family: myriad-arabic, sans-serif;
   margin: 0;
-}
-
-.layout_global {
+  font-family: Raleway, sans-serif;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -16,15 +13,20 @@ body {
   background-position: 50%;
 }
 
-.layout_header {
+.header {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   background-color: #000;
-  padding: 10px 20px;
+  padding: 10px 64px;
 }
 
-.layout_main {
+.header .logo {
+  height: 40px;
+}
+
+.main {
   flex-grow: 1;
   overflow: auto;
   display: flex;
@@ -32,7 +34,7 @@ body {
   padding: 0 20px;
 }
 
-.home_container {
+.container {
   padding: 20px 0;
   width: 100%;
   max-width: 846px;
@@ -41,25 +43,45 @@ body {
   align-items: center;
 }
 
-.home_title {
-  font-size: 42px;
-  line-height: 1;
-  margin-bottom: 20px;
+.title_step1 {
+  font-size: 32px;
+  line-height: 1.2;
   font-weight: 400;
   text-align: center;
   color: #fff;
-  margin: 0 0 30px;
+  margin: 30px 0 10px;
 }
 
-.home_title strong {
+.title_step2 {
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  margin: 30px 0 10px;
+}
+
+.title_step1 strong {
+  display: block;
+  text-shadow: 2px -1px rgba(0, 0, 0, .4);
+}
+
+.title_step2 strong {
   display: block;
   text-shadow: 2px -1px rgba(0, 0, 0, .4);
 }
 
 .bold {
-  font-family: myriad-pro, sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-style: normal;
+}
+
+.bold_2 {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  justify-content: flex-start;
 }
 
 .cards {
@@ -77,7 +99,7 @@ body {
   border-radius: 6px;
 }
 
-.home_questions {
+.step_text {
   font-size: 33px;
   font-weight: 400;
   color: #fff;
@@ -86,7 +108,47 @@ body {
   margin-bottom: 10px;
 }
 
+.step1 {
+  display: none;
+}
 
+.step1_text2 {
+  font-size: 33px;
+}
+
+.step1_button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  font-size: 26px;
+  background-color: #84c441;
+  padding: 0 30px;
+  height: 50px;
+  margin-right: 10px;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,.5);
+}
+
+
+
+.form {
+  width: 100%;
+  padding: 0 5px;
+  font-size: 22px;
+  text-align: center;
+  height: 50px;
+  border: 0;
+}
+
+.step2_button {
+  width: 100%;
+}
 
 
 
