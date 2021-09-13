@@ -1,0 +1,19 @@
+body {
+  font-family: myriad-arabic, sans-serif;
+}
+
+.layout_global {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: url(https://cybermondaybrasil.com.br/cartao-de-credito/_next/static/media/bg.144cf8199e6addab270d2526bc5915c7.jpg);
+}
+
+.layout_header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
