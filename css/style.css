@@ -28,7 +28,8 @@ li {
   height: 85px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   background-color: #000;
   padding: 10px 64px;
@@ -56,6 +57,15 @@ li {
 }
 
 .title_step1 {
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  margin: 2px 0 3px;
+}
+
+.title1_step1 {
   font-size: 32px;
   line-height: 1.2;
   font-weight: 400;
@@ -95,12 +105,21 @@ li {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   color: #fff;
+  text-align: center;
   text-shadow: 2px 1px rgba(0,0,0,.4);
+  margin-bottom: 20px;
+}
+
+.count-down-box {
+  width: 400px;
+  height: auto;
+  margin-bottom: 50px;
 }
 
 .cards {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 50px;
@@ -114,12 +133,17 @@ li {
 }
 
 .step_text {
-  font-size: 25px;
+  font-size: 21px;
   font-weight: 400;
   color: #fff;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 0;
+}
+
+.slidecontainer {
+  margin-bottom: 20px;
+  width: 530px;
 }
 
 .step2 {
@@ -135,6 +159,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 14px;
 }
 
 .btn {
@@ -143,6 +168,7 @@ li {
   padding: 0 30px;
   height: 50px;
   margin-right: 10px;
+  margin-bottom: 50px;
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -151,6 +177,7 @@ li {
 
 .form_wrapper {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
 }
@@ -173,6 +200,7 @@ li {
   border-radius: 6px;
   border: none;
   display: inline-flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   box-shadow: 2px 2px 2px 0 rgba(0,0,0,.5);
@@ -190,7 +218,8 @@ li {
   height: 85px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   background-color: #000;
   padding: 24px 64px;
@@ -219,6 +248,7 @@ li {
 .cards-page2 {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
   margin-bottom: 50px;
@@ -233,6 +263,7 @@ li {
   padding: 50px 15px 15px;
   margin-bottom: 50px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
 }
@@ -252,6 +283,7 @@ li {
   padding: 60px 15px 15px;
   margin-bottom: 50px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
 }
@@ -305,12 +337,13 @@ li {
   padding: 0 30px;
   height: 50px;
   width: 200px;
-  margin-top: 50px;
+  margin-top: 29px;
   color: #fff;
   background-color: #84c441;
   border-radius: 6px;
   border: none;
   display: inline-flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   box-shadow: 2px 2px 2px 0 rgba(0,0,0,.5);
@@ -327,6 +360,7 @@ li {
   border-radius: 6px;
   border: none;
   display: inline-flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   box-shadow: 2px 2px 2px 0 rgba(0,0,0,.5);
@@ -435,6 +469,7 @@ input:focus{
 #tickmarks {
   width: calc(100% + 2px);
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin: -31px -1px 0;
@@ -444,6 +479,7 @@ input:focus{
   background: #3992f1;
   margin: 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   /*align-items: center;*/
   text-align: center;
@@ -461,7 +497,75 @@ input:focus{
   border-color: #3f6894;
 }
 
-/*count-down*/
+@media only screen and (max-width: 600px) {
+  .btn {
+    font-size: 21px;
+    height: 43px;
+    width: 144px;
+    padding: 0;
+  }
+
+  .header{
+    height: 102px;
+  }
+
+  .title_step1 {
+    font-size: 18px;
+    margin: 2px 0 -4px;
+  }
+  .title1_step1 {
+    font-size: 30px;
+  }
+  .cards img {
+    width: 135px;
+    margin-bottom: 15px;
+  }
+  .cards {
+    padding: 0 84px;
+  }
+  .count-down-text {
+    font-size: 13px;
+  }
+  .count-down-box {
+    max-width: 350px;
+  }
+  .step_text {
+    font-size: 17px;
+  }
+
+  .slidecontainer {
+    max-width: 350px;
+    margin-bottom: 80px;
+  }
+
+  .master {
+    width: 80%;
+    height: 548px;
+  }
+
+  .visa {
+    width: 80%;
+    height: 561px;
+  }
+
+  .button1-page2 {
+    margin-top: -16px;
+  }
+
+  .button2-page2 {
+    margin-top: 0;
+  }
+
+  .title-page2 {
+    font-size: 42px;
+    margin: 30px 0 -4px;
+  }
+
+  .bold-page2 {
+    font-size: 24px;
+  }
+
+}
 
 
 
