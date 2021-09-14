@@ -13,7 +13,16 @@ body {
   background-position: 50%;
 }
 
+input {
+  width: 100%;
+  padding: 0 5px;
+  height: 50px;
+  text-align: center;
+  max-width: 300px;
+}
+
 .header {
+  height: 85px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -49,16 +58,16 @@ body {
   font-weight: 400;
   text-align: center;
   color: #fff;
-  margin: 30px 0 10px;
+  margin: 2px 0 10px;
 }
 
 .title_step2 {
-  font-size: 32px;
+  font-size: 25px;
   line-height: 1.2;
   font-weight: 400;
   text-align: center;
   color: #fff;
-  margin: 30px 0 10px;
+  margin: 2px 0 10px;
 }
 
 .title_step1 strong {
@@ -72,16 +81,17 @@ body {
 }
 
 .bold {
+  font-size: 42px;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
-.bold_2 {
+.count-down-text {
   font-family: Raleway, sans-serif;
   font-weight: 700;
-  font-style: normal;
-  justify-content: flex-start;
+  color: #fff;
+  text-shadow: 2px 1px rgba(0,0,0,.4);
 }
 
 .cards {
@@ -100,7 +110,7 @@ body {
 }
 
 .step_text {
-  font-size: 33px;
+  font-size: 25px;
   font-weight: 400;
   color: #fff;
   text-align: center;
@@ -108,7 +118,7 @@ body {
   margin-bottom: 10px;
 }
 
-.step1 {
+.step2 {
   display: none;
 }
 
@@ -135,22 +145,35 @@ body {
   box-shadow: 2px 2px 2px 0 rgba(0,0,0,.5);
 }
 
-
+.form_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .form {
-  width: 100%;
-  padding: 0 5px;
-  font-size: 22px;
-  text-align: center;
+  width: 300px;
+}
+
+.input-wrapper {
+  margin-bottom: 10px;
+}
+
+.step2-button {
+  font-size: 26px;
+  padding: 0 30px;
   height: 50px;
-  border: 0;
+  width: 300px;
+  color: #fff;
+  background-color: #84c441;
+  border-radius: 6px;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,.5);
+
 }
-
-.step2_button {
-  width: 100%;
-}
-
-
 
 
 
