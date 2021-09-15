@@ -155,11 +155,6 @@
       } else
         t = methods.time()
 
-      // second sound
-      // setTimeout(function() {
-      //     document.getElementById('flipclick').play()
-      // }, 500);
-
       // second first digit
       el.find(".second .d1 .ready .inn").html(t.s.d1);
       methods.play('.second .d1');
@@ -233,6 +228,18 @@
 
 })(typeof jQuery !== 'undefined' ? jQuery : Zepto);
 
+function adicionaZero(numero){
+  if (numero <= 9) 
+      return "0" + numero;
+  else
+      return numero; 
+}
 
-// RUN
-$('#container').flipclock();
+let date = new Date();
+date.setHours(date.getHours() + 3); //fix timezone
+date.setMinutes(date.getMinutes() + (Math.random() * (15 - 4) + 4));
+date = new Date(date); // Date object
+
+const formatDate = `${date.getFullYear()} ${adicionaZero((date.getMonth() + 1).toString())} ${date.getDate()} ${adicionaZero(date.getHours().toString())}:${adicionaZero(date.getMinutes().toString())}:${adicionaZero(date.getSeconds().toString())}`; 
+
+$('#container').flipclock(formatDate);
