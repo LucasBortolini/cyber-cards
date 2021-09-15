@@ -62,7 +62,6 @@ input:focus{
   border-radius: 50%;
 }
 
-/* selected */
 .slider::-moz-range-thumb {
   background: transparent;
   box-sizing: border-box;

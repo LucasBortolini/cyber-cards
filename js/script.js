@@ -1,8 +1,8 @@
-var step1 = document.getElementsByClassName("step1");
-var step2 = document.getElementsByClassName("step2");
-var marker = document.getElementById("tickmarks").children[1];
-var next = document.getElementById("next");
-var cancel = document.getElementById("cancel");
+const step1 = document.getElementsByClassName("step1");
+const step2 = document.getElementsByClassName("step2");
+const marker = document.getElementById("tickmarks").children[1];
+const next = document.getElementById("next");
+const cancel = document.getElementById("cancel");
 
 Array.from(step2).forEach(el => el.style.display = "none")
 

@@ -24,17 +24,17 @@
     justify-content: center;
   }
 
-  .title_step1 {
+  .title-step1 {
     font-size: 16px;
     margin: 2px 0 -4px;
   }
 
-  .title_step2 {
+  .title-step2 {
     font-size: 20px;
     margin: 2px 0 2px;
   }
 
-  .title1_step1 {
+  .title1-step1 {
     font-size: 22px;
   }
 
@@ -58,7 +58,7 @@
     max-width: 350px;
     margin-bottom: 100px;
   }
-  .step_text {
+  .step-text {
     font-size: 15px;
   } 
 
@@ -100,7 +100,7 @@
     font-size: 21px;
   }
 
-  .form_wrapper {
+  .form-wrapper {
     max-width: 80%;    
   }
 

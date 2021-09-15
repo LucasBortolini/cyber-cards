@@ -65,7 +65,7 @@ button:hover {
   padding-bottom: 50px;
 }
 
-.title_step1 {
+.title-step1 {
   font-size: 32px;
   line-height: 1.2;
   font-weight: 400;
@@ -74,7 +74,7 @@ button:hover {
   margin: 2px 0 3px;
 }
 
-.title1_step1 {
+.title1-step1 {
   font-size: 32px;
   line-height: 1.2;
   text-align: center;
@@ -82,7 +82,7 @@ button:hover {
   margin: 2px 0 10px;
 }
 
-.title_step2 {
+.title-step2 {
   font-size: 25px;
   line-height: 1.2;
   font-weight: 400;
@@ -91,12 +91,12 @@ button:hover {
   margin: 2px 0 10px;
 }
 
-.title_step1 h2 {
+.title-step1 h2 {
   display: block;
   text-shadow: 2px -1px rgba(0, 0, 0, .4);
 }
 
-.title_step2 h2 {
+.title-step2 h2 {
   display: block;
   text-shadow: 2px -1px rgba(0, 0, 0, .4);
 }
@@ -142,7 +142,7 @@ button:hover {
   border-radius: 6px;
 }
 
-.step_text {
+.step-text {
   font-size: 21px;
   font-weight: 400;
   color: #fff;
@@ -156,11 +156,11 @@ button:hover {
   width: 530px;
 }
 
-.step1_text2 {
+.step1-text2 {
   font-size: 33px;
 }
 
-.step1_button {
+.step1-button {
   width: 100%;
   padding: 0 20px;
   display: flex;
@@ -169,7 +169,7 @@ button:hover {
   margin-top: 16px;
 }
 
-.step1_button .btn:first-child {
+.step1-button .btn:first-child {
   margin-right: 16px;
 }
 
@@ -184,7 +184,7 @@ button:hover {
   border: 1px solid #fff;
 }
 
-.form_wrapper {
+.form-wrapper {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
