@@ -1,0 +1,111 @@
+@media only screen and (max-width: 600px) {
+  
+  input {
+    width: 216px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    font-size: 15px;
+    height: 48px;
+    width: 115px;
+    padding: 0;
+    box-shadow: none;
+    border: none;
+  }
+
+  .header{
+    height: 102px;
+    justify-content: center;
+  }
+
+  .title_step1 {
+    font-size: 16px;
+    margin: 2px 0 -4px;
+  }
+
+  .title_step2 {
+    font-size: 20px;
+    margin: 2px 0 2px;
+  }
+
+  .title1_step1 {
+    font-size: 22px;
+  }
+
+  .bold {
+    font-size: 27px;
+    margin-bottom: 40px;
+  }
+
+  .cards img {
+    width: 120px;
+    margin-bottom: 15px;
+  }
+  .cards {
+    padding: 0 50px;
+    margin-bottom: 48px;
+  }
+  .count-down-text {
+    font-size: 13px;
+  }
+  .count-down-box {
+    max-width: 350px;
+    margin-bottom: 100px;
+  }
+  .step_text {
+    font-size: 15px;
+  } 
+
+  .step2-button {
+    font-size: 22px;
+    padding: 10px 0;
+    width: 216px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-page2 {
+    justify-content: center;
+  }
+
+  .slidecontainer {
+    max-width: 312px;
+    margin-bottom: 40px;
+  }
+
+  .master {
+    width: 80%;
+  }
+
+  .visa {
+    width: 80%;
+  }
+
+  .button1-page2 {
+    margin-top: -16px;
+  }
+
+  .button2-page2 {
+    margin-top: 0;
+  }
+
+  .title-page2 {
+    font-size: 42px;
+    margin: 30px 0 -4px;
+  }
+
+  .bold-page2 {
+    font-size: 24px;
+  }
+
+  .form_wrapper {
+    max-width: 80%;    
+  }
+
+}
