@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/style-countdown.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/slider-style.css">
   <link rel="stylesheet" type="text/css" href="css/mobile-style.css">
@@ -50,6 +51,12 @@
           <br>
           acaba em
         </span>
+        <div id="mask">
+          <div id="page">
+            <div id="container"></div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
       </div>
       <section class="steps-wrapper">
         <div>
@@ -79,25 +86,26 @@
             você tem disponível?
           </h3>
           <div class="step1_button">
-            <button class="btn">Eu quero!</button>
-            <button class="btn">Não. Obrigado</button>
+            <button id="next" class="btn">Eu quero!</button>
+            <button id="next" class="btn">Não. Obrigado</button>
           </div>
         </div>
         <div class="step2 form-wrapper">
-          <form class="form">
+          <form method="get" action="step3.html" class="form">
             <div class="input-wrapper step2">
-              <input placeholder="Nome Completo" type="text" id="name" />
+              <input required placeholder="Nome Completo" type="text" id="name" />
             </div>
             <div class="input-wrapper step2">
-              <input placeholder="Seu e-mail" type="email" id="email" />
+              <input required placeholder="Seu e-mail" type="email" id="email" />
             </div>
+            <button type="submit" class="step2-button">Desbloquear Oferta!</button> 
           </form>
-          <div>
-            <button class="step2-button">Desbloquear Oferta!</button>
-          </div> 
         </div> 
       </section>
     </div>
   </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js"></script>
+  <script type="text/javascript" src="js/script-countdown.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

@@ -112,12 +112,13 @@ li {
   color: #fff;
   text-align: center;
   text-shadow: 2px 1px rgba(0,0,0,.4);
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .count-down-box {
-  width: 400px;
-  height: auto;
+  width: auto;
+  display: flex;
+  
   margin-bottom: 50px;
 }
 
@@ -149,10 +150,6 @@ li {
 .slidecontainer {
   margin-bottom: 20px;
   width: 530px;
-}
-
-.step1 {
-  display: none;
 }
 
 .step1_text2 {
