@@ -109,6 +109,7 @@ input:focus{
   height: 27px;
   border-radius: 50%;
   border: 1px solid #043c5e;
+  padding-bottom: 3px;
 }
 
 #tickmarks p.selected {
