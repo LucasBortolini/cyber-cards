@@ -184,6 +184,13 @@ button:hover {
   border: 1px solid #fff;
 }
 
+.grow {
+  transition: all .2s ease-in-out; 
+}
+.grow:hover {
+  transform: scale(1.1); 
+}
+
 .form-wrapper {
   display: flex;
   flex-wrap: wrap;

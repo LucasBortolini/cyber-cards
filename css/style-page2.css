@@ -94,9 +94,15 @@
   box-shadow: 2px 2px 2px 0 rgba(0,0,0,.5);
 }
 
+.grow {
+  transition: all .2s ease-in-out; 
+}
+.grow:hover {
+  transform: scale(1.1); 
+}
+
 .padding-button {
   margin-bottom: 25px;
-  list-style-image: ;
 }
 
 /*MODAL*/
