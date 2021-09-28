@@ -80,7 +80,6 @@
 
 .button-page2 {
   font-size: 26px;
-  text-decoration: none;
   padding: 0 30px;
   height: 50px;
   width: 200px;
@@ -94,6 +93,10 @@
   align-items: center;
   justify-content: center;
   box-shadow: 2px 2px 2px 0 rgba(0,0,0,.5);
+}
+
+.text-decorate{
+  text-decoration: none;
 }
 
 .grow {
