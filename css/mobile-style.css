@@ -1,5 +1,4 @@
-@media only screen and (max-width: 414px) {
-  
+@media only screen and (max-width: 768px) {
   input {
     width: 184px;
     height: 40px;
@@ -28,18 +27,22 @@
     height: 24px;
   }
 
-  .header{
+  .header .logo-2 img {
+    height: 36px;
+  }
+
+  .header {
     height: 64px;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .title-step1 {
-    font-size: 15px;
+    font-size: 24px;
     margin: 16px 0 -4px;
   }
 
   .title-step2 {
-    font-size: 16px;
+    font-size: 24px;
     margin: 2px 0 2px;
   }
 
@@ -47,27 +50,28 @@
     font-size: 22px;
   }
 
-  .bold {
-    font-size: 16px;
-    margin-bottom: 18px;
+  .cards {
+    width: 70%;
+    margin-bottom: 16px;
+  }
+
+  .cards div {
+    width: calc(50% - 8px);
   }
 
   .cards img {
-    width: 80px;
-    margin-bottom: 15px;
+    max-width: 100%;
   }
 
-  .cards {
-    padding: 0 72px;
-    margin-bottom: 16px;
-  }
   .count-down-text {
     font-size: 10px;
   }
+
   .count-down-box {
     max-width: 350px;
     margin-bottom: 24px;
   }
+
   .step-text {
     font-size: 14px;
   } 
@@ -140,5 +144,10 @@
   .steps-wrapper {
     padding-bottom: 0;
   }
+}
 
+@media only screen and (max-width: 576px) {
+  .title-step1, .title-step2 {
+    font-size: 16px;
+  }
 }
