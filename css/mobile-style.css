@@ -1,7 +1,8 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 414px) {
   
   input {
-    width: 216px;
+    width: 184px;
+    height: 40px;
   }
 
   .form {
@@ -16,25 +17,29 @@
 
   .btn {
     font-size: 15px;
-    height: 48px;
-    width: 115px;
+    height: 40px;
+    width: 112px;
     padding: 0;
     box-shadow: none;
     border: none;
   }
 
+  .header .logo img {
+    height: 24px;
+  }
+
   .header{
-    height: 102px;
+    height: 64px;
     justify-content: center;
   }
 
   .title-step1 {
-    font-size: 16px;
-    margin: 2px 0 -4px;
+    font-size: 15px;
+    margin: 16px 0 -4px;
   }
 
   .title-step2 {
-    font-size: 20px;
+    font-size: 16px;
     margin: 2px 0 2px;
   }
 
@@ -43,33 +48,35 @@
   }
 
   .bold {
-    font-size: 27px;
-    margin-bottom: 40px;
+    font-size: 16px;
+    margin-bottom: 18px;
   }
 
   .cards img {
-    width: 120px;
+    width: 80px;
     margin-bottom: 15px;
   }
+
   .cards {
-    padding: 0 36px;
-    margin-bottom: 48px;
+    padding: 0 72px;
+    margin-bottom: 16px;
   }
   .count-down-text {
-    font-size: 13px;
+    font-size: 10px;
   }
   .count-down-box {
     max-width: 350px;
-    margin-bottom: 100px;
+    margin-bottom: 24px;
   }
   .step-text {
-    font-size: 15px;
+    font-size: 14px;
   } 
 
   .step2-button {
-    font-size: 22px;
+    font-size: 16px;
     padding: 10px 0;
-    width: 216px;
+    width: 184px;
+    height: 40px;
     display: flex;
     justify-content: center;
   }
@@ -79,8 +86,12 @@
   }
 
   .slidecontainer {
-    max-width: 312px;
+    max-width: 280px;
     margin-bottom: 40px;
+  }
+
+  .slider {
+    height: 33px;
   }
 
   .cards-block {
@@ -109,9 +120,25 @@
   }
 
   ul.flip {
-    width: 60px;
-    height: 40px;
+    width: 48px;
+    height: 38px;
     line-height: normal;
+  }
+
+  #tickmarks p {
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    padding-bottom: 0;
+    align-items: baseline;
+  }
+
+  .step1-button {
+    margin-top: 32px;
+  }
+
+  .steps-wrapper {
+    padding-bottom: 0;
   }
 
 }
