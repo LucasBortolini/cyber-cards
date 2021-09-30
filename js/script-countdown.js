@@ -242,4 +242,6 @@ date = new Date(date); // Date object
 
 const formatDate = `${date.getFullYear()} ${adicionaZero((date.getMonth() + 1).toString())} ${date.getDate()} ${adicionaZero(date.getHours().toString())}:${adicionaZero(date.getMinutes().toString())}:${adicionaZero(date.getSeconds().toString())}`; 
 
+console.log(formatDate);
+
 $('#container').flipclock(formatDate);
