@@ -14,3 +14,28 @@ change_page = function() {
 
 next.onclick = change_page;
 cancel.onclick = change_page;
+
+// COUNTDOWN
+
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+
+function endFlipclock() {
+  datetime = date.getTime();
+
+  flipdown = new FlipDown(datetime, {
+    theme: "light"
+  }).start().ifEnded(endFlipclock);
+}
+
+let minutes = 1000 * 60 * getRandomInt(4, 15); // minutes in miliseconds 
+
+let date = new Date(Date.now() + minutes);
+let datetime = Math.floor(date.getTime()/1000);
+
+let flipdown = new FlipDown(datetime, {
+    theme: "light"
+  })
+  .start()
+  .ifEnded(endFlipclock);

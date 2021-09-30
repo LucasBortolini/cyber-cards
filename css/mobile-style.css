@@ -80,6 +80,7 @@
   .count-down-box {
     max-width: 350px;
     margin-bottom: 24px;
+    margin-top: 15px;
   }
 
   .step-text {
