@@ -22,15 +22,10 @@ function getRandomInt(min, max) {
 }
 
 function endFlipclock() {
-  datetime = date.getTime();
-
-  flipdown = new FlipDown(datetime, {
-    theme: "light"
-  }).start().ifEnded(endFlipclock);
+  flipdown.epoch = flipdown.now + 60 * getRandomInt(4, 15);
 }
 
 let minutes = 1000 * 60 * getRandomInt(4, 15); // minutes in miliseconds 
-
 let date = new Date(Date.now() + minutes);
 let datetime = Math.floor(date.getTime()/1000);
 

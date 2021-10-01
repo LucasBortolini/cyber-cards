@@ -7,3 +7,15 @@
 .flipdown .rotor-group-heading {
   display: none;
 }
+
+.flipdown .rotor {
+  font-size: 3.7rem;
+}
+
+.flipdown .rotor-leaf-front, .flipdown .rotor-top {
+  line-height: 87px;
+}
+
+.flipdown .rotor-leaf-rear, .flipdown .rotor-bottom {
+  line-height: 10px;
+}
