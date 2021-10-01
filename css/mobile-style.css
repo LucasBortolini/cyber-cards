@@ -167,11 +167,11 @@
   }
 
   .flipdown .rotor-leaf-front, .flipdown .rotor-top {
-    line-height: 57px;
+    line-height: 55px;
   }
 
   .flipdown .rotor-leaf-rear, .flipdown .rotor-bottom {
-    line-height: 7px;
+    line-height: 4px;
   } 
 }
 
