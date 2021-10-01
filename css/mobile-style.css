@@ -10,11 +10,11 @@
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .cards-page2 {
@@ -27,7 +27,7 @@
     width: 112px;
     padding: 0;
     -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
     border: none;
   }
 
@@ -42,8 +42,8 @@
   .header {
     height: 64px;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
 
   .title-step1 {
@@ -96,14 +96,14 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 
   .header-page2 {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 
   .slidecontainer {
@@ -154,8 +154,8 @@
     z-index: 10;
     padding-bottom: 0;
     -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
   }
 
   .step1-button {
@@ -167,16 +167,20 @@
   }
 
   .flipdown .rotor-leaf-front, .flipdown .rotor-top {
-    line-height: 56px;
+    line-height: 57px;
   }
 
   .flipdown .rotor-leaf-rear, .flipdown .rotor-bottom {
-    line-height: 6px;
+    line-height: 7px;
   } 
 }
 
 @media only screen and (max-width: 576px) {
   .title-step1, .title-step2 {
     font-size: 16px;
+  }
+
+  .flipdown .rotor {
+    font-size: 40px;
   }
 }
