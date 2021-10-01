@@ -33,12 +33,12 @@
           justify-content: space-evenly;
   margin-bottom: 50px;
   margin-top: 80px;
-  padding: 0 120px;
+  padding: 0 20px;
 }
 
 .cards-block {
-  width: 360px;
-  min-height: 572px;
+  width: 280px;
+  min-height: 666px;
   background-color: hsla(0,0%,100%,.7);
   border-radius: 6px;
   padding: 50px 15px 15px;
@@ -58,7 +58,7 @@
 .master-card,
 .visa-card {
   height: 80px;
-  margin: -90px;
+  margin: -90px auto 0;
   position: absolute;
 }
 
@@ -88,7 +88,7 @@
   background-image: url(../images/list-style.png);
   background-position: left center;
   background-repeat: no-repeat;
-  background-size: 32px;
+  background-size: 28px;
 
 }
 
@@ -115,6 +115,10 @@
           justify-content: center;
   -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,.5);
           box-shadow: 2px 2px 2px 0 rgba(0,0,0,.5);
+}
+
+.button2-page2{
+  margin-top: 43px;
 }
 
 .text-decorate{
@@ -173,6 +177,6 @@
 @media only screen and (min-width: 1600px) {
 
   .cards-page2 {
-    padding: 0;
+    padding: 0 20px;
   }
 }
